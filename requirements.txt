@@ -1,0 +1,6 @@
+setuptools=36.2.2
+requests=0.0.1
+click>=6.0
+yapf>=0.17
+requests>=0.0.1
+PyYAML>=3.12'

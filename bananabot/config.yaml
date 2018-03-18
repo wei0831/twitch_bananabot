@@ -1,0 +1,29 @@
+#Example Config
+
+twitch:
+  irc:
+    - irc.twitch.tv
+    - 6667
+  username: stinkingbananabot
+  oauth: #https://twitchapps.com/tmi/
+  channel: stinkingbanana
+
+api-3rdparty:
+  uptime: 'https://beta.decapi.me/twitch/uptime/stinkingbanana'
+
+msg:
+  onConnected2Channel: '臭香蕉的專屬機器人上線了~ BeeBop~ BeeBop~'
+  onDisconnected2Channel: '臭香蕉的專屬機器人下線了~ BeeBop~ BeeBop~'
+  onWelcomeEverySeconds: 1800
+  onWelcome: ['歡迎來到臭香蕉的遊戲直播。喜歡的話請追隨我，支持一下。感謝你們。', 
+              '歡迎來到臭香蕉的遊戲直播。非常感謝大家的支持。',
+              '歡迎來到臭香蕉的遊戲直播。請跟我一起開開心心地玩遊戲吧!!']
+  showHelp: '您好，我是臭香蕉專屬的機器人。目前能用的指令就只有  [ !help ]: 顯示幫助 [ !uptime ]: 顯示開台多久了'
+  showUptime: '臭香蕉目前已經開台: '
+  onOffline: '臭香蕉目前沒有開台唷~ 有事情可以到Discord留言 ^_^'
+
+cmd:
+  helpLimitSeconds: 3
+  help: '!help'
+  uptimeLimitSeconds: 3
+  uptime: '!uptime'
